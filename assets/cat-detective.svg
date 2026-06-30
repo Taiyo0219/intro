@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="猫探偵">
+  <rect width="420" height="420" rx="20" fill="#111"/>
+  <path fill="#f4f0e8" d="M70 310c35-66 80-98 140-98s105 32 140 98v82H70v-82Z"/>
+  <path fill="#2b2b2b" stroke="#f4f0e8" stroke-width="8" d="M104 170 72 72l91 55c16-8 32-12 47-12s31 4 47 12l91-55-32 98c22 29 35 61 35 94 0 78-63 122-141 122S69 342 69 264c0-33 13-65 35-94Z"/>
+  <path fill="#fff" d="M118 210c23-25 56-22 75 2-22 25-55 24-75-2Z"/>
+  <path fill="#ff2b9f" d="M229 210c23-25 56-22 75 2-22 25-55 24-75-2Z"/>
+  <circle cx="157" cy="211" r="11" fill="#111"/>
+  <circle cx="267" cy="211" r="11" fill="#111"/>
+  <path fill="#ff2b9f" stroke="#111" stroke-width="5" d="m211 236 18 16-18 16-18-16 18-16Z"/>
+  <path fill="none" stroke="#f4f0e8" stroke-width="7" stroke-linecap="round" d="M210 270c-14 20-35 22-52 4M212 270c14 20 35 22 52 4M93 249c-32-10-55-9-76 2M96 274c-36 2-60 12-78 28M326 249c32-10 55-9 76 2M323 274c36 2 60 12 78 28"/>
+  <path fill="#111" stroke="#ff2b9f" stroke-width="6" d="M111 319h198l25 73H86l25-73Z"/>
+  <path fill="#ff2b9f" d="m178 323 32 48 32-48h-64Z"/>
+  <circle cx="309" cy="309" r="45" fill="none" stroke="#f4f0e8" stroke-width="13"/>
+  <path stroke="#f4f0e8" stroke-width="15" stroke-linecap="round" d="m339 342 44 45"/>
+  <path fill="#111" stroke="#ff2b9f" stroke-width="5" d="M137 96h146l20 43H117l20-43Z"/>
+  <path fill="#111" stroke="#ff2b9f" stroke-width="5" d="M92 134h236v30H92z"/>
+</svg>

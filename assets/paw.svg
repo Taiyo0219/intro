@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="肉球">
+  <path fill="#ff2b9f" stroke="#111" stroke-width="6" d="M60 63c19 0 35 18 35 34 0 12-10 18-22 11-8-5-18-5-26 0-12 7-22 1-22-11 0-16 16-34 35-34Z"/>
+  <ellipse cx="29" cy="44" rx="13" ry="18" fill="#ff2b9f" stroke="#111" stroke-width="6" transform="rotate(-24 29 44)"/>
+  <ellipse cx="50" cy="28" rx="13" ry="19" fill="#ff2b9f" stroke="#111" stroke-width="6" transform="rotate(-8 50 28)"/>
+  <ellipse cx="70" cy="28" rx="13" ry="19" fill="#ff2b9f" stroke="#111" stroke-width="6" transform="rotate(8 70 28)"/>
+  <ellipse cx="91" cy="44" rx="13" ry="18" fill="#ff2b9f" stroke="#111" stroke-width="6" transform="rotate(24 91 44)"/>
+</svg>
