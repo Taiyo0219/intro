@@ -22,6 +22,7 @@
         <span>CASE FILE : ME</span>
       </a>
       <nav class="nav-scroll" aria-label="ページ内メニュー">
+        <a href="#home">HOME<br /><small>TOP</small></a>
         <a href="#profile">CASE 01<br /><small>PROFILE</small></a>
         <a href="#history">CASE 02<br /><small>HISTORY</small></a>
         <a href="#skills">CASE 03<br /><small>SKILLS</small></a>
@@ -29,7 +30,6 @@
         <a href="#webapp">CASE 05<br /><small>WEB APP</small></a>
         <a href="#pr">CASE 06<br /><small>PR</small></a>
         <a href="#works">FINAL<br /><small>WORKS</small></a>
-        <a href="#contact">REPORT<br /><small>CONTACT</small></a>
       </nav>
     </header>
 
@@ -48,17 +48,19 @@
         <div class="hero-copy reveal">
           <p class="eyebrow stamp-label">EVIDENCE A</p>
           <div class="torn-paper headline-paper">
-            <h1>好きが、<br />私の証拠。</h1>
-            <p>技術が、未来を切り開く。</p>
+            <h1>好きなものを、<br />技術で形にする。</h1>
+            <p>研究やWeb制作を通して、楽しいと思えるものや誰かの役に立つものを、実際に動く形にしていきたいです。</p>
           </div>
           <p class="lead">
-            研究・Web制作・ものづくりを通して、誰かの心に残る体験を形にするエンジニア志望です。
+            研究、Web制作、技術スキルを、就職活動で見せられる形に整理しています。
           </p>
           <div class="evidence-tags" aria-label="プロフィールタグ">
             <span>CASE FILE: TAIYO FUKUDA</span>
             <span>STATUS: 就職活動中</span>
-            <span>MISSION: 技術を使える形にする</span>
-            <span>FAVORITE: ゲーム / 猫 / ものづくり</span>
+            <span>MISSION: 楽しいを、技術で形にする。</span>
+            <span>FAVORITE: ゲーム / 猫 / スポーツ観戦 / アニメ / 音楽</span>
+            <span>スポーツ観戦: サッカー・バスケ・アイスホッケーなど</span>
+            <span>音楽: ロックバンド・ボカロ</span>
           </div>
         </div>
 
@@ -85,7 +87,7 @@
           </dl>
           <div class="barcode" aria-hidden="true"></div>
           <p class="cat-note">
-            このポートフォリオには、研究、Web制作、技術スキル、そして好きなことの手がかりが詰まっているにゃ。
+            このポートフォリオには、研究、Web制作、技術スキル、そして好きなことの手がかりが詰まっています。順番に調査してみてくださいにゃ。
           </p>
         </aside>
       </section>
@@ -106,16 +108,21 @@
                 <div><dt>氏名</dt><dd>福田 太陽</dd></div>
                 <div><dt>ふりがな</dt><dd>ふくだ たいよう</dd></div>
                 <div><dt>生年月日</dt><dd>2004年2月19日</dd></div>
-                <div><dt>年齢</dt><dd>22歳</dd></div>
                 <div><dt>性別</dt><dd>男</dd></div>
                 <div><dt>所属</dt><dd>東京電機大学大学院<br />工学研究科 情報通信工学専攻</dd></div>
               </dl>
             </div>
             <div class="memo-stack">
-              <p class="sticky-note pink">MISSION<br /><strong>技術を学び、使える形へ。</strong></p>
-              <p class="sticky-note cream">FAVORITE<br /><strong>ゲーム / 猫 / ものづくり</strong></p>
-              <a class="plain-link" href="https://github.com/Taiyo0219" target="_blank" rel="noreferrer">GitHub: Taiyo0219</a>
-              <a class="plain-link" href="mailto:masyu2850@outlook.jp">masyu2850@outlook.jp</a>
+              <p class="sticky-note pink">MISSION<br /><strong>楽しいを、技術で形にする。</strong></p>
+              <p class="sticky-note cream">
+                FAVORITE<br />
+                <strong>ゲーム / 猫 / スポーツ観戦 / アニメ / 音楽</strong><br />
+                <small>スポーツ観戦: サッカー・バスケ・アイスホッケーなど / 音楽: ロックバンド・ボカロ</small>
+              </p>
+              <div class="profile-links">
+                <a class="plain-link" href="https://github.com/Taiyo0219" target="_blank" rel="noreferrer">GitHubを見る</a>
+                <a class="plain-link" href="mailto:masyu2850@outlook.jp">メールを送る</a>
+              </div>
             </div>
           </div>
         </article>
@@ -236,13 +243,17 @@
         </div>
         <article class="paper-card main-case reveal">
           <span class="stamp stamp-black">MAIN CASE</span>
-          <div class="heatmap">
-            <img src="./assets/research-map.png" alt="少数観測点から受信電力マップを推定した研究画像" />
-          </div>
+          <figure class="heatmap">
+            <img src="./assets/research-map.png" alt="GT、少数観測点、推定結果を比較した電波マップ推定の結果画像" />
+            <figcaption>GT、少数観測点、推定結果を比較した例です。</figcaption>
+          </figure>
           <div>
-            <h3>少数の観測点から、見えない電波分布を推定する。</h3>
+            <h3>少数観測点からの電波マップ推定</h3>
             <p>
-              Python、PyTorch、QGIS、Wireless InSiteを用いて、少数の観測点から高解像度な受信電力マップを推定する研究に取り組んでいます。
+              少ない観測点から、見えていない範囲の受信電力マップを推定する研究に取り組んでいます。
+            </p>
+            <p>
+              Wireless InSiteで作成した受信電力データをもとに、QGISやPythonで前処理を行い、PyTorchを用いて深層学習モデルの学習・推論・評価を行っています。評価では、RMSE、PSNR、相関係数などを用いて推定精度を比較しています。
             </p>
             <ul class="check-list">
               <li>Wireless InSiteで受信電力データを作成</li>
@@ -265,11 +276,11 @@
         </div>
         <article class="paper-card web-case reveal">
           <span class="stamp stamp-pink">UNDER INVESTIGATION</span>
-          <div class="screen-mock" aria-hidden="true">
-            <div class="mock-bar"></div>
-            <div class="mock-grid">
-              <span></span><span></span><span></span><span></span>
-            </div>
+          <div class="webapp-preview">
+            <p class="webapp-empty" id="webappEmpty">
+              Webアプリ画面は近日公開予定です。現在、学習と制作を進めながら、画面や機能を追加しています。
+            </p>
+            <div class="webapp-gallery" id="webappGallery" aria-live="polite"></div>
           </div>
           <div>
             <h3>学んだ技術を、実際に触れる形へ。</h3>
@@ -293,17 +304,20 @@
         </div>
         <article class="paper-card pr-card reveal">
           <span class="tape tape-right"></span>
-          <h3>未知の技術にも向き合い、調べ、手を動かし、形にする。</h3>
+          <h3>調べて、試して、形にする。</h3>
           <p>
-            私は、未知の技術に対しても自分で調べながら手を動かし、形にする力があります。研究では、PythonやPyTorchを用いた深層学習モデルの実装に加え、Wireless InSiteやQGISを用いたデータ作成、評価指標の算出、結果の可視化まで一連の流れを経験しました。
+            私は、未知の技術に対しても、まず自分で調べ、手を動かしながら理解を深めていくことを大切にしています。
           </p>
           <p>
-            最初からすべてを理解していたわけではありませんが、エラーの原因を一つずつ確認し、必要な知識を学びながら改善を進めてきました。今後も、技術を学ぶだけで終わらせず、実際に使えるものとして形にする姿勢を大切にしたいと考えています。
+            研究では、PythonやPyTorchを用いた深層学習モデルの実装に加え、Wireless InSiteやQGISを用いたデータ作成、評価指標の算出、結果の可視化まで経験しました。
+          </p>
+          <p>
+            最初からすべてを理解していたわけではありませんが、エラーの原因を一つずつ確認し、必要な知識を学びながら改善を進めてきました。今後も、技術を学ぶだけで終わらせず、実際に使えるものとして形にしていきたいです。
           </p>
           <div class="evidence-card-row">
-            <div><strong>調べる力</strong><span>未知の技術を自分で調査しながら理解する</span></div>
-            <div><strong>手を動かす力</strong><span>実装・評価・改善まで行う</span></div>
-            <div><strong>形にする力</strong><span>学んだ技術を動くものとして表現する</span></div>
+            <div><strong>調べる</strong><span>未知の技術やエラーに対して、自分で情報を集めながら理解を進めます。</span></div>
+            <div><strong>試す</strong><span>実際にコードを書き、動かしながら改善点を見つけます。</span></div>
+            <div><strong>形にする</strong><span>学んだことを研究やWeb制作など、実際に使えるものへつなげます。</span></div>
           </div>
         </article>
       </section>
@@ -318,14 +332,14 @@
           <article>
             <span>01</span>
             <h3>Radio Map Estimation</h3>
-            <p>少数観測点から高解像度な受信電力マップを推定する研究。</p>
+            <p>少数観測点から高解像度な受信電力マップを推定する研究です。Python、PyTorch、QGIS、Wireless InSiteを用いて、データ作成から学習・推論・評価まで取り組んでいます。</p>
             <p class="meta">Python / PyTorch / QGIS / Wireless InSite</p>
           </article>
           <article>
             <span>02</span>
-            <h3>Web App Development</h3>
-            <p>フロントエンド、バックエンド、API連携、DB管理を学習しながら制作中。</p>
-            <p class="meta">HTML / CSS / JavaScript / React / Node.js</p>
+            <h3>Webアプリ制作学習プロジェクト</h3>
+            <p>HTML、CSS、JavaScript、React、Node.js、Express、MongoDBを用いたWebアプリ制作を学習しています。画面表示、状態管理、API連携、データベースを用いた情報管理などを学びながら、個人開発に取り組んでいます。</p>
+            <p class="meta">HTML / CSS / JavaScript / React / Node.js / Express / MongoDB</p>
           </article>
           <article class="coming-soon">
             <span>03</span>
@@ -336,25 +350,6 @@
         <div class="center-actions">
           <a class="button-link" href="https://github.com/Taiyo0219" target="_blank" rel="noreferrer">VIEW GITHUB</a>
         </div>
-      </section>
-
-      <section class="section-band contact-band" id="contact">
-        <div class="section-title reveal">
-          <span>FINAL REPORT</span>
-          <h2>CONTACT</h2>
-          <p>お問い合わせ</p>
-        </div>
-        <article class="paper-card contact-card reveal">
-          <img src="./assets/paw.svg" alt="" class="contact-paw" />
-          <h3>捜査依頼はこちら</h3>
-          <p>
-            ご連絡・ご相談はこちらからお願いします。研究、Web制作、エンジニア職に関するお話をお待ちしています。
-          </p>
-          <div class="contact-actions">
-            <a class="button-link" href="mailto:masyu2850@outlook.jp">メールを送る</a>
-            <a class="button-link secondary" href="https://github.com/Taiyo0219" target="_blank" rel="noreferrer">GitHubを見る</a>
-          </div>
-        </article>
       </section>
     </main>
 
