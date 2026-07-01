@@ -318,6 +318,7 @@ a {
   margin: 0;
   font-size: clamp(1.45rem, 3vw, 2.5rem);
   font-weight: 900;
+  line-height: 1.32;
   color: var(--pink-deep);
   background: linear-gradient(transparent 56%, rgba(255, 43, 159, 0.24) 56%);
 }
@@ -1173,6 +1174,15 @@ dd {
   .headline-paper::before {
     inset: 12px;
     border-width: 4px;
+  }
+
+  .headline-paper h1 {
+    font-size: clamp(3rem, 15vw, 3.6rem);
+  }
+
+  .headline-paper p {
+    font-size: clamp(1.05rem, 5vw, 1.35rem);
+    line-height: 1.55;
   }
 
   .evidence-tags span,
